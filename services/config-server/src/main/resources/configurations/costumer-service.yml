@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      username: root # Usuario de la base de datos
+      password: password # Contraseña de la base de datos
+      host: localhost # Host de la base de datos
+      port: 27017 # Puerto de la base de datos
+      database: customer-service # Nombre de la base de datos
+      autehntication-database: admin # Base de datos de autenticacion
+  server:
+    port: 8090 # Puerto en el que correra el servicio
