@@ -91,12 +91,11 @@ public class CustomerServiceImpl implements CustomerService {
             customer.setFirstname(customerRequest.lastname());
         }
         if(StringUtils.isNotBlank(customerRequest.email())) {
-            customer.setFirstname(customerRequest.email());
+            customer.setEmail(customerRequest.email());
         }
         if(customerRequest.address() != null) {
             customer.setAddress(customerRequest.address());
         }
-
     }
 
 }

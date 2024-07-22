@@ -1,0 +1,6 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888 #Direccion del servidor de configuracion
+  application:
+    name: product-service
+
