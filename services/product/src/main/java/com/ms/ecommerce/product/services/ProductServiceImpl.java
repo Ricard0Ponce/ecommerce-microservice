@@ -1,10 +1,10 @@
 package com.ms.ecommerce.product.services;
 
 import com.ms.ecommerce.product.mapper.ProductMapper;
-import com.ms.ecommerce.product.model.ProductPurchaseRequest;
-import com.ms.ecommerce.product.model.ProductPurchaseResponse;
-import com.ms.ecommerce.product.model.ProductRequest;
-import com.ms.ecommerce.product.model.ProductResponse;
+import com.ms.ecommerce.product.models.ProductPurchaseRequest;
+import com.ms.ecommerce.product.models.ProductPurchaseResponse;
+import com.ms.ecommerce.product.models.ProductRequest;
+import com.ms.ecommerce.product.models.ProductResponse;
 import com.ms.ecommerce.product.repositories.ProductRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

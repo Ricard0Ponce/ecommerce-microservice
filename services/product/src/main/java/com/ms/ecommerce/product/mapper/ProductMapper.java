@@ -2,9 +2,9 @@ package com.ms.ecommerce.product.mapper;
 
 import com.ms.ecommerce.product.entities.Category;
 import com.ms.ecommerce.product.entities.Product;
-import com.ms.ecommerce.product.model.ProductPurchaseResponse;
-import com.ms.ecommerce.product.model.ProductRequest;
-import com.ms.ecommerce.product.model.ProductResponse;
+import com.ms.ecommerce.product.models.ProductPurchaseResponse;
+import com.ms.ecommerce.product.models.ProductRequest;
+import com.ms.ecommerce.product.models.ProductResponse;
 import org.springframework.stereotype.Service;
 
 @Service

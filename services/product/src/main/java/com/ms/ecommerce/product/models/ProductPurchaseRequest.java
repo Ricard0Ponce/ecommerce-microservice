@@ -1,4 +1,4 @@
-package com.ms.ecommerce.product.model;
+package com.ms.ecommerce.product.models;
 
 import jakarta.validation.constraints.NotNull;
 

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: order-service
+  config: # A continuacion se importa el archivo de configuracion de la configuracion centralizada
+    import: optional:configserver:http://localhost:8888 #Aqui se encuentra la URL del servidor de configuracion centralizada

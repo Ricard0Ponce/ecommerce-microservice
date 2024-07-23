@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order
+    username: admin
+    password: password
+    driver-class-name: org.postgresql.Driver # Indicamos el driver de la base de datos
+  jpa:
+    hibernate:
+      ddl-auto: create # Con ddl auto create se crean las tablas en la base de datos
+    database: postgresql # Indicamos que la base de datos es postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect # Indicamos el dialecto de postgresql
+server:
+  port: 8070
+
+application:
+  config:
+    customer-url: http://localhost:8090/api/v1/customers # Indicamos la url del servicio de customer, esto se cambiara mas adelante al api gateway
+    product-url: http://localhost:8050/api/v1/products # Indicamos la url del servicio de product, esto se cambiara mas adelante al api gateway
+    payment-url: http://localhost:8060/api/v1/payments # Indicamos la url del servicio de product, esto se cambiara mas adelante al api gateway
+    # El puerto que usaremos para el api gateway es 8222

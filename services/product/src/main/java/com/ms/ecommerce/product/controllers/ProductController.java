@@ -1,13 +1,13 @@
 package com.ms.ecommerce.product.controllers;
 
-import com.ms.ecommerce.product.model.ProductRequest;
+import com.ms.ecommerce.product.models.ProductRequest;
 import com.ms.ecommerce.product.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.ms.ecommerce.product.model.ProductPurchaseResponse;
-import com.ms.ecommerce.product.model.ProductPurchaseRequest;
-import com.ms.ecommerce.product.model.ProductResponse;
+import com.ms.ecommerce.product.models.ProductPurchaseResponse;
+import com.ms.ecommerce.product.models.ProductPurchaseRequest;
+import com.ms.ecommerce.product.models.ProductResponse;
 
 import java.util.List;
 
